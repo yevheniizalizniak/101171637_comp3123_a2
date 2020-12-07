@@ -1,0 +1,86 @@
+html, body, #root {
+    font: 1.2rem Comic Sans MS;
+    height: 100%;
+    margin: 0;
+}
+
+.main-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./images/background_image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.search {
+    font-size: 20px;
+    outline: none;
+    padding: 24px 5%;
+    border-radius: 40px;
+    border: none;
+    margin-bottom: 2%;
+    background:#ffffff;
+}
+.date {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    text-align: center;
+    
+  }
+
+.weather-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 5%;
+    border-radius: 30px;
+    background: #5891db71;
+    
+}
+.name {
+    align-items: center;
+    font-weight: bold;
+    color: #0a094e;
+    font-size: 2em;
+}
+
+.name sup {
+    padding: 0.2em 0.6em;
+    font-size: 0.5em;
+    margin-left: 0.4em;
+    align-items: center;
+    border-radius: 50%;
+    color: #0a094e;
+    background: #ffffff;
+}
+
+.temperature {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #0a094e;
+    text-align: center;
+}
+
+.icon {
+    
+    width: 140px;
+    height: 140px;
+}
+
+.description {
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+
+
+
